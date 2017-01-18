@@ -77,6 +77,7 @@ class Purecharity {
         $this->plugin_name = 'pure-charity';
 
         $this->set_loader();
+        $this->set_admin_hooks();
     }
 
     /**
@@ -161,6 +162,22 @@ class Purecharity {
         require_once PURECHARITY_BASE_PATH . 'includes/purecharuty-loader.class.php';
 
         $this->loader = Purecharity_Loader::getInstance();
+    }
+
+    /**
+     * Register all of the hooks related to the dashboard functionality
+     * of the plugin.
+     *
+     * @since    1.0.0
+     * @access   private
+     */
+    private function set_admin_hooks() {
+        require_once PURECHARITY_BASE_PATH . 'includes/admin/purecharity-admin.class.php';
+
+        $plugin_admin = Purecharity_Admin::getInstance();
+
+        $this->loader->add_action( 'admin_menu', $plugin_admin, 'add_admin_menu' );
+        $this->loader->add_action( 'admin_init', $plugin_admin, 'settings_init' );
     }
 
 }
