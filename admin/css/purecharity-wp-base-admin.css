@@ -1,0 +1,9 @@
+/**
+ * All of the CSS for dashboard-specific functionality should be
+ * included in this file.
+ */
+form.pure-settings-form select,
+form.pure-settings-form input[type="text"] {
+  max-width: 400px !important;
+  width: 100% !important;
+}
