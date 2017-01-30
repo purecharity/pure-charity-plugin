@@ -1,0 +1,88 @@
+.pcsponsor-item {
+	width: 220px;
+	float: left;
+	background: #f0f0f0;
+	position: relative;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	height: 315px; 
+	overflow: hidden;
+}
+
+.pcsponsor-content {
+	padding: 15px 15px;
+	text-align: center;
+}
+
+.pcsponsor-item h4 {
+	font-size: 14px;
+	margin:0;padding:0;
+	line-height: 100%;
+}
+
+.pcsponsor-item p {
+	margin: 0;
+	font-size: 11px;
+}
+
+.pcsponsor-image {
+	height: 220px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+p.pcsponsor-full {
+	padding: 5px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	opacity: .7;
+}
+
+ul.pcsponsor-status-buttons {
+	text-align: center;
+	margin: 5px 0 0;
+	padding:0;
+	list-style: none;
+}
+
+ul.pcsponsor-status-buttons li {
+	display: inline-block;
+	list-style: none;
+	padding:0;
+	margin-right: 5px;
+	height: 15px;
+	width: 15px;
+	background: #999; 
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+ul.pcsponsor-status-buttons li.pcsponsor-taken {
+	background: #597FA2; // needs to be selectable from the admin screen
+}
+
+ul.pcsponsor-single-status-buttons li {
+	margin-top: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+
+@media only screen and (max-width: 421px) {
+
+	.pcsponsor-item {
+		width: 100%;
+		height: 430px; 
+	}
+
+	.pcsponsor-image {
+		height: 320px;
+	}
+
+}

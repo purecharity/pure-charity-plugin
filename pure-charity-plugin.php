@@ -61,6 +61,54 @@ require_once PURECHARITY_BASE_PATH . 'includes/purecharity-wp-base-deactivator.c
 require_once plugin_dir_path( __FILE__ ) . 'includes/purecharity-wp-donations-shortcode.php';
 
 /**
+ * The Fundraisers shortcode.
+ */
+require_once plugin_dir_path( __FILE__ ) . 'includes/purecharity-wp-fundraisers-shortcode.php';
+
+/**
+ * The Fundraisers paginator.
+ */
+require_once plugin_dir_path( __FILE__ ) . 'includes/purecharity-wp-fundraisers-paginator.php';
+
+/**
+ * The Givingcircles shortcode.
+ */
+require_once plugin_dir_path( __FILE__ ) . 'includes/purecharity-wp-givingcircles-shortcode.php';
+
+/**
+ * The Sponsorship shortcode.
+ */
+require_once plugin_dir_path( __FILE__ ) . 'includes/purecharity-wp-sponsorships-shortcode.php';
+
+/**
+ * The Sponsorship paginator.
+ */
+require_once plugin_dir_path( __FILE__ ) . 'includes/purecharity-wp-sponsorships-paginator.php';
+
+/**
+ * The Trips shortcode.
+ */
+require_once plugin_dir_path( __FILE__ ) . 'includes/purecharity-wp-trips-shortcode.php';
+
+/**
+ * The Trips paginator.
+ */
+require_once plugin_dir_path( __FILE__ ) . 'includes/purecharity-wp-trips-paginator.php';
+
+/**
+ * The template tags for trips.
+ */
+require_once plugin_dir_path( __FILE__ ) . 'includes/template_tags.php';
+
+/**
+ * The Widgets.
+ */
+require_once plugin_dir_path( __FILE__ ) . 'includes/widget_region.class.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/widget_country.class.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/widget_months.class.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/widget_tags.class.php';
+
+/**
  * This action is documented in includes/purecharity-wp-base-activator.class.php
  */
 register_activation_hook( __FILE__, array( 'Purecharity_Wp_Base_Activator', 'activate' ) );

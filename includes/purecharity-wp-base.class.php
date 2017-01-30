@@ -99,7 +99,11 @@ class Purecharity_Wp_Base {
 
     // Initialize the shortcodes
     Purecharity_Wp_Donations_Shortcode::init();
-
+    Purecharity_Wp_Fundraisers_Shortcode::init();
+    Purecharity_Wp_Givingcircles_Shortcode::init();
+    Purecharity_Wp_Sponsorships_Shortcode::init();
+    Purecharity_Wp_Trips_Shortcode::init();
+    
   }
 
   /**
@@ -195,6 +199,7 @@ class Purecharity_Wp_Base {
     $plugin_public = new Purecharity_Wp_Base_Public( $this->get_plugin_name(), $this->get_version() );
 
     $this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
+    $this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'sponsorship_enqueue_styles' );
     $this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
     $this->loader->add_action( 'wp_head', $this, 'set_fr_meta_tags' );
 
@@ -268,7 +273,7 @@ class Purecharity_Wp_Base {
    * @since    1.0.0
    * @return    string    The result of the API request.
    */
-  public function api_call($endpoint) {
+  public static function api_call($endpoint) {
     $response = false;
 
     if(ini_get('allow_url_fopen')){
@@ -319,6 +324,109 @@ class Purecharity_Wp_Base {
         <meta property="og:description" content="'.strip_tags($fundraiser->about).'">
       ' . "\n";
     }
+  }
+  /**
+   * Country list for use on widget.
+   *
+   * @since    1.0.0
+   */
+  public static function widget_country_list(){
+    $base_plugin = new Purecharity_Wp_Base();
+    $countries = $base_plugin->api_call('countries');
+    if($countries != null) {
+      sort($countries->countries);
+      $current_country = get_query_var('country');
+      $content = '<ul class="purecharity-trips-countries-widget">';
+      foreach($countries->countries as $country) {
+        if($country == ''){ continue; }
+        $content  .= "<li><a href=\"?country=".urlencode($country)."\""
+                  . ($country == $current_country ? ' class="selected"' : '')
+                  . ">".$country."</a></li>";
+      }
+      $content .= '</ul>';
+      return $content;
+    }
+  }
+ 
+  /**
+   * Region list for use on widget.
+   *
+   * @since    1.0.0
+   */
+  public static function widget_region_list(){
+    $base_plugin = new Purecharity_Wp_Base();
+    $regions = $base_plugin->api_call('regions');
+    if($regions != null) {
+      sort($regions->regions);
+      $current_region = get_query_var('region');
+      $content = '<ul class="purecharity-trips-regions-widget">';
+      foreach($regions->regions as $region) {
+        if($region == ''){ continue; }
+        $content  .= "<li><a href=\"?region=".$region->id."\""
+                  . ($region->id == $current_region ? ' class="selected"' : '')
+                  . ">".$region->name."</a></li>";
+      }
+      $content .= '</ul>';
+      return $content;
+    }
+  }
+
+  /**
+   * Months list for use on widget.
+   *
+   * @since    1.0.0
+   */
+  public static function widget_month_list() {
+    $base_plugin = new Purecharity_Wp_Base();
+    $all_dates = $base_plugin->api_call('events?scope=dates');
+    $months = array();
+    foreach($all_dates->events as $dates) {
+      $start    = new DateTime($dates->starts_at);
+      $start->modify('first day of this month');
+      $end      = new DateTime($dates->ends_at);
+      $end->modify('first day of next month');
+      $interval = DateInterval::createFromDateString('1 month');
+      $period   = new DatePeriod($start, $interval, $end);
+      foreach ($period as $dt) {
+        $key = $dt->format('Y-m');
+        if(!array_key_exists($key, $months)) {
+          $months[$key] = $dt->format(self::MONTH_FORMAT);
+        }
+      }
+    }
+    ksort($months);
+    $current_month = get_query_var('date');
+    $content = '<ul class="purecharity-trips-months-widget">';
+    foreach($months as $date => $label) {
+      $content .=  "<li><a href=\"?date=".urlencode($date)."\""
+                . ($date == $current_month ? ' class="selected"' : '')
+                . ">".$label."</a></li>";
+    }
+    $content .= '</ul>';
+    return $content;
+  }
+
+  /**
+   * Months list for use on widget.
+   *
+   * @since    1.0.0
+   */
+  public static function widget_tag_list() {
+    $base_plugin = new Purecharity_Wp_Base();
+    $all_tags = $base_plugin->api_call('events/tags');
+
+    $base_url = get_site_url();
+
+    $tags = $all_tags->tags;
+    asort($tags);
+    $content = '<ul class="purecharity-trips-tags-widget">';
+    foreach($tags as $event_tag) {
+      $content .= '<li><a href="'.$base_url.'/missions/upcoming-missions?trip_tag='.$event_tag->name.'"'
+                  . ((isset($_GET['trip_tag']) && $_GET['trip_tag'] == $event_tag->name) ? ' class="selected"' : '')
+                  . ">".$event_tag->name."</a></li>";
+    }
+    $content .= '</ul>';
+    return $content;
   }
 
 }
