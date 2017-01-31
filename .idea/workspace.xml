@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1596f068-37e0-43fd-bbc6-e858cb2a9129" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/purecharity-wp-base-admin.css" afterPath="$PROJECT_DIR$/admin/css/purecharity-wp-base-admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/spectrum.css" afterPath="$PROJECT_DIR$/admin/css/spectrum.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/js/purecharity-wp-base-admin.js" afterPath="$PROJECT_DIR$/admin/js/purecharity-wp-base-admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/purecharity-wp-base-admin.class.php" afterPath="$PROJECT_DIR$/admin/purecharity-wp-base-admin.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-base-activator.class.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-base-activator.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-base-deactivator.class.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-base-deactivator.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-base-i18n.class.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-base-i18n.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-base-loader.class.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-base-loader.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-base-paginator.class.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-base-paginator.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-base-template-tags-helper.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-base-template-tags-helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-base-updater.class.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-base-updater.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-base.class.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-base.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-donations-shortcode.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-donations-shortcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-fundraisers-paginator.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-fundraisers-paginator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-fundraisers-shortcode.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-fundraisers-shortcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-givingcircles-shortcode.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-givingcircles-shortcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-sponsorships-paginator.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-sponsorships-paginator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-sponsorships-shortcode.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-sponsorships-shortcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-trips-paginator.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-trips-paginator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/purecharity-wp-trips-shortcode.php" afterPath="$PROJECT_DIR$/includes/purecharity-wp-trips-shortcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/template_tags.php" afterPath="$PROJECT_DIR$/includes/template_tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/widget_country.class.php" afterPath="$PROJECT_DIR$/includes/widget_country.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/widget_months.class.php" afterPath="$PROJECT_DIR$/includes/widget_months.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/widget_region.class.php" afterPath="$PROJECT_DIR$/includes/widget_region.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/widget_tags.class.php" afterPath="$PROJECT_DIR$/includes/widget_tags.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/pure-sponsorships-option1.css" afterPath="$PROJECT_DIR$/public/css/pure-sponsorships-option1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/pure-sponsorships-option2.css" afterPath="$PROJECT_DIR$/public/css/pure-sponsorships-option2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/pure-sponsorships-option3.css" afterPath="$PROJECT_DIR$/public/css/pure-sponsorships-option3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/purecharity-wp-base-public.css" afterPath="$PROJECT_DIR$/public/css/purecharity-wp-base-public.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/single-view-funding-bar.php" afterPath="$PROJECT_DIR$/public/includes/single-view-funding-bar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/single-view-funding-div.php" afterPath="$PROJECT_DIR$/public/includes/single-view-funding-div.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/single-view-tabs.php" afterPath="$PROJECT_DIR$/public/includes/single-view-tabs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/single-view-vars.php" afterPath="$PROJECT_DIR$/public/includes/single-view-vars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/purecharity-wp-base-public.js" afterPath="$PROJECT_DIR$/public/js/purecharity-wp-base-public.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/purecharity-plugin-template.php" afterPath="$PROJECT_DIR$/public/partials/purecharity-plugin-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/purecharity-wp-base-public.class.php" afterPath="$PROJECT_DIR$/public/purecharity-wp-base-public.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pure-charity-plugin.php" afterPath="$PROJECT_DIR$/pure-charity-plugin.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pure-charity-plugin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pure-charity-plugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="239" column="63" lean-forward="true" selection-start-line="239" selection-start-column="63" selection-end-line="239" selection-end-column="63" />
+              <folding>
+                <element signature="e#7#984#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/admin/purecharity-wp-base-admin.class.php" />
+        <option value="$PROJECT_DIR$/admin/css/purecharity-wp-base-admin.css" />
+        <option value="$PROJECT_DIR$/admin/css/spectrum.css" />
+        <option value="$PROJECT_DIR$/admin/js/purecharity-wp-base-admin.js" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-base.class.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-base-activator.class.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-base-deactivator.class.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-base-i18n.class.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-base-loader.class.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-base-paginator.class.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-base-template-tags-helper.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-base-updater.class.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-donations-shortcode.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-fundraisers-paginator.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-fundraisers-shortcode.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-givingcircles-shortcode.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-sponsorships-paginator.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-sponsorships-shortcode.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-trips-paginator.php" />
+        <option value="$PROJECT_DIR$/includes/purecharity-wp-trips-shortcode.php" />
+        <option value="$PROJECT_DIR$/includes/template_tags.php" />
+        <option value="$PROJECT_DIR$/includes/widget_country.class.php" />
+        <option value="$PROJECT_DIR$/includes/widget_months.class.php" />
+        <option value="$PROJECT_DIR$/includes/widget_region.class.php" />
+        <option value="$PROJECT_DIR$/includes/widget_tags.class.php" />
+        <option value="$PROJECT_DIR$/public/css/pure-sponsorships-option1.css" />
+        <option value="$PROJECT_DIR$/public/css/pure-sponsorships-option2.css" />
+        <option value="$PROJECT_DIR$/public/css/pure-sponsorships-option3.css" />
+        <option value="$PROJECT_DIR$/public/css/purecharity-wp-base-public.css" />
+        <option value="$PROJECT_DIR$/public/includes/single-view-funding-bar.php" />
+        <option value="$PROJECT_DIR$/public/includes/single-view-funding-div.php" />
+        <option value="$PROJECT_DIR$/public/includes/single-view-tabs.php" />
+        <option value="$PROJECT_DIR$/public/includes/single-view-vars.php" />
+        <option value="$PROJECT_DIR$/public/js/purecharity-wp-base-public.js" />
+        <option value="$PROJECT_DIR$/public/partials/purecharity-plugin-template.php" />
+        <option value="$PROJECT_DIR$/public/purecharity-wp-base-public.class.php" />
+        <option value="$PROJECT_DIR$/pure-charity-plugin.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pure-charity-plugin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1596f068-37e0-43fd-bbc6-e858cb2a9129" name="Default" comment="" />
+      <created>1485869373652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1485869373652</updated>
+      <workItem from="1485869375132" duration="755000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="755000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ChangeLog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/purecharity-wp-base-admin.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18340#18358#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/partials/purecharity-wp-base-admin-display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/js/spectrum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1485869160011" expanded="true" signature="2577:2584" ph="..." />
+            <marker date="1485869160011" expanded="true" signature="6035:6064" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/js/purecharity-wp-base-admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <marker date="1485869759459" expanded="true" signature="2868:2878" ph="..." />
+            <marker date="1485869759459" expanded="true" signature="3662:3672" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/spectrum.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/purecharity-wp-base-admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-base.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-base-deactivator.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-base-i18n.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-base-activator.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-base-loader.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-base-paginator.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-base-template-tags-helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-base-updater.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-donations-shortcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-fundraisers-paginator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-fundraisers-shortcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-sponsorships-paginator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-sponsorships-shortcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-trips-paginator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-trips-shortcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/template_tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/widget_country.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/widget_months.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/widget_region.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/widget_tags.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/purecharity-wp-givingcircles-shortcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/jquery.simpleselect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/pure-sponsorships-option1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/pure-sponsorships-option3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/pure-sponsorships-option2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/purecharity-wp-base-public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1974">
+          <caret line="742" column="23" lean-forward="false" selection-start-line="742" selection-start-column="23" selection-end-line="742" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/includes/single-view-funding-bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/includes/single-view-funding-div.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <marker date="1485870011151" expanded="true" signature="161:220" ph="..." />
+            <marker date="1485870011151" expanded="true" signature="1393:1739" ph="..." />
+            <marker date="1485870011151" expanded="true" signature="1618:1725" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/includes/single-view-tabs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <marker date="1485870011003" expanded="true" signature="1600:2068" ph="..." />
+            <marker date="1485870011003" expanded="true" signature="1954:2055" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/includes/single-view-vars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.simpleselect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/purecharity-wp-base-public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/public-display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/purecharity-plugin-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/purecharity-wp-base-public-display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/purecharity-wp-base-public.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3816">
+          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding>
+            <marker date="1485870011207" expanded="true" signature="3821:3922" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="6472:6922" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="6515:6912" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="8728:9441" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="8758:9426" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="8814:9408" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="8837:8988" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="8884:8964" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="9820:9994" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="9905:9994" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="9920:9989" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="13661:13884" ph="..." />
+            <marker date="1485870011207" expanded="false" signature="13722:13759" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="13760:13867" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="13990:14288" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="14040:14213" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="14345:14612" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="24010:25995" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="24065:24435" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="24119:24172" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="24255:24420" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="24533:25982" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="24589:24671" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="24731:25824" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="24798:24942" ph="..." />
+            <marker date="1485870011207" expanded="false" signature="24853:24916" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="24998:25362" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="25115:25343" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="25419:25807" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="29700:30015" ph="..." />
+            <marker date="1485870011207" expanded="false" signature="29771:29817" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="30513:31157" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="30751:30953" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="30995:31139" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="33464:34039" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="33562:34024" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="33616:33767" ph="..." />
+            <marker date="1485870011207" expanded="false" signature="33679:33741" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="33809:34009" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="35600:35765" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="36427:36621" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="36725:37114" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="36954:37100" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="37519:37799" ph="..." />
+            <marker date="1485870011207" expanded="false" signature="37568:37639" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="38152:38341" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="38790:38794" ph="&lt;" />
+            <marker date="1485870011207" expanded="true" signature="38906:41170" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="38946:39027" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="39059:40490" ph="..." />
+            <marker date="1485870011207" expanded="false" signature="39101:39193" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="39194:39211" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="39244:40087" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="39336:39594" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="39455:39533" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="39628:40070" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="39647:39860" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="39879:40052" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="40120:40475" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="40521:41156" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="40550:41140" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="40588:40816" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="40845:40929" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="40958:41029" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="41058:41123" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="44453:45985" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="44493:44884" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="44928:45962" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="44980:45059" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="45104:45803" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="45151:45353" ph="..." />
+            <marker date="1485870011207" expanded="false" signature="45213:45278" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="45279:45318" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="45403:45586" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="45666:45772" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="45856:45935" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="46031:46102" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="46215:47414" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="46333:46341" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="46433:46578" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="46637:47401" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="46697:46856" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="46916:47214" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="47276:47374" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="48002:48204" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="48323:48428" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="48794:48880" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="49156:49261" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="49163:49257" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="50370:50626" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="51494:52067" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="52392:52717" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="55080:55864" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="56464:56640" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="60520:61396" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="60560:61373" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="60628:61345" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="60665:60881" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="60728:60843" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="62323:63072" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="62357:63053" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="62417:63031" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="62444:62605" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="62495:62577" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="63674:64493" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="63744:64474" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="63827:64050" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="63881:64027" ph="..." />
+            <marker date="1485870011207" expanded="false" signature="63945:63997" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="64129:64453" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="64395:64447" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="65316:66542" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="65391:66519" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="65475:65734" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="65531:65709" ph="..." />
+            <marker date="1485870011207" expanded="false" signature="65624:65677" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="65812:66335" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="66047:66231" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="66404:66498" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="69363:69465" ph="..." />
+            <marker date="1485870011207" expanded="true" signature="71855:72240" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pure-charity-plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="239" column="63" lean-forward="true" selection-start-line="239" selection-start-column="63" selection-end-line="239" selection-end-column="63" />
+          <folding>
+            <element signature="e#7#984#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

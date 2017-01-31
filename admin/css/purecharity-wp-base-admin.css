@@ -4,32 +4,53 @@
  */
 form.pure-settings-form select,
 form.pure-settings-form input[type="text"] {
-  max-width: 400px !important;
-  width: 100% !important;
+    max-width: 400px !important;
+    width: 100% !important;
 }
 
 .pcs_custom_field {
-  list-style: none;
-  margin: 0;
+    list-style: none;
+    margin: 0;
 }
+
 .pcs_custom_field.header {
-  border-top: 1px solid #DADADA !important;
-  background: #FAFAEA !important;
-  font-size:14px;
-  margin-top:10px
+    border-top: 1px solid #DADADA !important;
+    background: #FAFAEA !important;
+    font-size: 14px;
+    margin-top: 10px
 }
+
 .pcs_custom_field.header li {
-  background: #FAFAEA !important;
+    background: #FAFAEA !important;
 }
+
 .pcs_custom_field li {
-  border: 1px solid #DADADA;
-  border-top: none;
-  background: #FFF;
-  padding: 5px;
-  margin: 0 !important;
+    border: 1px solid #DADADA;
+    border-top: none;
+    background: #FFF;
+    padding: 5px;
+    margin: 0 !important;
 }
-.pcs_custom_field li .left { width: 45%; float: left }
-.pcs_custom_field li .right { width: 45%; float: left }
-.pcs_custom_field li .options { width: 10%; float: right }
-.pcs_custom_field li input { display:none }
-.pcs_custom_field li .save { display:none }
+
+.pcs_custom_field li .left {
+    width: 45%;
+    float: left
+}
+
+.pcs_custom_field li .right {
+    width: 45%;
+    float: left
+}
+
+.pcs_custom_field li .options {
+    width: 10%;
+    float: right
+}
+
+.pcs_custom_field li input {
+    display: none
+}
+
+.pcs_custom_field li .save {
+    display: none
+}

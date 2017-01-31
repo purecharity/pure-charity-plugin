@@ -20,7 +20,8 @@
  * @subpackage Purecharity/includes
  * @author     Pure Charity <dev@purecharity.com>
  */
-class Purecharity_Wp_Base_Deactivator {
+class Purecharity_Wp_Base_Deactivator
+{
 
     /**
      * Deactivates the Pure Base Plugin.
@@ -29,7 +30,8 @@ class Purecharity_Wp_Base_Deactivator {
      *
      * @since    1.0.0
      */
-    public static function deactivate() {
+    public static function deactivate()
+    {
 
     }
 

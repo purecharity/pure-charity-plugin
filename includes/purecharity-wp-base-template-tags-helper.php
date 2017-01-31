@@ -5,7 +5,8 @@
  *
  * @since    1.0.0
  */
-function pc_base(){
+function pc_base()
+{
     return new Purecharity_Wp_Base();
 }
 
@@ -16,6 +17,7 @@ function pc_base(){
  * @since      1.0.0
  */
 
-function pc_donation($options = array()){
-	return Purecharity_Wp_Base::donation_form($options);
+function pc_donation($options = array())
+{
+    return Purecharity_Wp_Base::donation_form($options);
 }
