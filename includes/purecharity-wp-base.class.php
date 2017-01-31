@@ -77,6 +77,14 @@ class Purecharity_Wp_Base {
   protected $version;
 
   /**
+   * Formats used on the widgets.
+   *
+   * @since    1.0.0
+   */
+  const DATE_FORMAT = "F j, Y";
+  const MONTH_FORMAT = "F Y";
+
+  /**
    * Define the core functionality of the plugin.
    *
    * Set the plugin name and the plugin version that can be used throughout the plugin.
@@ -276,18 +284,18 @@ class Purecharity_Wp_Base {
   public static function api_call($endpoint) {
     $response = false;
 
-    if(ini_get('allow_url_fopen')){
+    // if(ini_get('allow_url_fopen')){
 
-      $headers = array(
-        'http' => array(
-          'method' => 'GET',
-          'header' => "Authorization: Token token=\"". self::$api_key ."\"\r\n"
-        )
-      );
-      $context = stream_context_create($headers);
-      $response = file_get_contents(self::$api_url . $endpoint, false, $context);
+    //   $headers = array(
+    //     'http' => array(
+    //       'method' => 'GET',
+    //       'header' => "Authorization: Token token=\"". self::$api_key ."\"\r\n"
+    //     )
+    //   );
+    //   $context = stream_context_create($headers);
+    //   $response = file_get_contents(self::$api_url . $endpoint, false, $context);
 
-    }else{
+    // }else{
 
       $headers = array();
       $headers[] = "Authorization: Token token=\"". self::$api_key ."\"\r\n";
@@ -295,13 +303,15 @@ class Purecharity_Wp_Base {
       $ch = curl_init();
       curl_setopt($ch, CURLOPT_URL, self::$api_url . $endpoint);
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-      curl_setopt($ch, CURLOPT_HEADER, true);
+      // curl_setopt($ch, CURLOPT_HEADER, true);
       curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-      curl_setopt($ch, CURLOPT_SSLVERSION, 3); 
+      // curl_setopt($ch, CURLOPT_SSLVERSION, 3); 
+      curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+      curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
       $response = curl_exec($ch);
       curl_close($ch);
-
-    }
+      
+    // }
 
     if ($response) {
       $response = json_decode($response);

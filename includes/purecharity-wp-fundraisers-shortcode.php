@@ -51,7 +51,7 @@ class Purecharity_Wp_Fundraisers_Shortcode {
   /**
    * Initialize the Last Fundraisers Listing shortcode.
    *
-   * @since    1.0.1
+   * @since    1.0.0
    */
   public static function last_fundraisers_shortcode($atts)
   {
@@ -200,7 +200,7 @@ class Purecharity_Wp_Fundraisers_Shortcode {
   /**
    * Initialize the Fundraiser Funding Bar shortcode.
    *
-   * @since    1.2.1
+   * @since    1.0.0
    */
   public static function fundraiser_funding_bar_shortcode($atts)
   {

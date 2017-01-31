@@ -399,7 +399,7 @@ class Purecharity_Wp_Base_Admin {
 	/**
 	 * Renders the fundraise for this cause.
 	 *
-	 * @since    1.1
+	 * @since    1.0.0
 	 */
 	public static function fundraise_cause_render(  ) { 
 		$options = get_option( 'pure_base_settings' );
@@ -415,7 +415,7 @@ class Purecharity_Wp_Base_Admin {
 	/**
 	 * Renders the backers tab.
 	 *
-	 * @since    1.1
+	 * @since    1.0.0
 	 */
 	public static function backers_tab_render(  ) { 
 		$options = get_option( 'pure_base_settings' );
@@ -431,7 +431,7 @@ class Purecharity_Wp_Base_Admin {
 	/**
 	 * Renders the updates tab.
 	 *
-	 * @since    1.1
+	 * @since    1.0.0
 	 */
 	public static function updates_tab_render(  ) { 
 		$options = get_option( 'pure_base_settings' );
@@ -447,7 +447,7 @@ class Purecharity_Wp_Base_Admin {
 	/**
 	 * Renders the updates.
 	 *
-	 * @since    1.0.4
+	 * @since    1.0.0
 	 */
 	public static function single_view_template_render(  ) { 
 		$options = get_option( 'pure_base_settings' );
@@ -508,7 +508,7 @@ class Purecharity_Wp_Base_Admin {
 	/**
 	 * Callback for use with Settings API.
 	 *
-	 * @since    1.1
+	 * @since    1.0.0
 	 */
 	public static function fundraiser_display_settings_section_callback(  ) 
 	{ 
@@ -518,7 +518,7 @@ class Purecharity_Wp_Base_Admin {
 	/**
 	 * Renders the template selector for the single view.
 	 *
-	 * @since    1.1
+	 * @since    1.0.0
 	 */
 	public static function allowed_custom_fields_render(  ) {
 		$options = get_option( 'pure_base_settings' );
@@ -586,7 +586,7 @@ class Purecharity_Wp_Base_Admin {
 	/**
 	 * Renders the global search.
 	 *
-	 * @since    1.1.1
+	 * @since    1.0.0
 	 */
 	public static function search_input_render(  ) {
 		$options = get_option( 'pure_base_settings' );
@@ -650,7 +650,7 @@ class Purecharity_Wp_Base_Admin {
 	/**
 	 * Renders the back link.
 	 *
-	 * @since    1.1
+	 * @since    1.0.0
 	 */
 	public static function show_back_link_render(  ) {
 		$options = get_option( 'pure_base_settings' );
@@ -667,7 +667,7 @@ class Purecharity_Wp_Base_Admin {
 	/**
 	 * Renders the back link option.
 	 *
-	 * @since    1.5
+	 * @since    1.0.0
 	 */
 	public static function back_link_render(  ) {
 		$options = get_option( 'pure_base_settings' );
@@ -684,7 +684,7 @@ class Purecharity_Wp_Base_Admin {
 	/**
 	 * Renders the more info link.
 	 *
-	 * @since    1.1
+	 * @since    1.0.0
 	 */
 	public static function show_more_link_render(  ) {
 		$options = get_option( 'pure_base_settings' );
@@ -701,7 +701,7 @@ class Purecharity_Wp_Base_Admin {
 	/**
 	 * Renders the more link option.
 	 *
-	 * @since    1.5
+	 * @since    1.0.0
 	 */
 	public static function more_link_render(  ) {
 		$options = get_option( 'pure_base_settings' );

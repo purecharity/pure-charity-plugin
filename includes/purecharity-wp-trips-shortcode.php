@@ -110,7 +110,7 @@ class Purecharity_Wp_Trips_Shortcode {
   /**
    * Adds parameter to show only past trips.
    *
-   * @since    1.0.5
+   * @since    1.0.0
    */
   public static function is_past($past){
     if($past == "true"){

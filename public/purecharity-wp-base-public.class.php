@@ -43,11 +43,47 @@ class Purecharity_Wp_Base_Public {
   /**
    * The Shortcode options.
    *
-   * @since    1.1.3
+   * @since    1.0.0
    * @access   public
    * @var      string    $options    The Shortcode options.
    */
   public static $options;
+
+    /**
+   * The Fundraise.
+   *
+   * @since    1.0.0
+   * @access   public
+   * @var      string    $fundraiser    The Fundraiser.
+   */
+  public static $fundraiser;
+
+    /**
+   * The Fundraisers collection.
+   *
+   * @since    1.0.0
+   * @access   public
+   * @var      string    $fundraisers    The Fundraisers collection.
+   */
+  public static $fundraisers;
+
+    /**
+   * The Giving Circle.
+   *
+   * @since    1.0.0
+   * @access   public
+   * @var      string    $givingcircle    The Giving Circle.
+   */
+  public static $givingcircle;
+
+  /**
+   * The Giving Circles collection.
+   *
+   * @since    1.0.0
+   * @access   public
+   * @var      string    $givingcircles    The Giving Circles collection.
+   */
+  public static $givingcircles;
 
   /**
    * The sponsorship.
@@ -56,7 +92,8 @@ class Purecharity_Wp_Base_Public {
    * @access   private
    * @var      string    $sponsorship    The sponsorship.
    */
-    public static $sponsorship;
+
+  public static $sponsorship;
 
     /**
    * The sponsorships.
@@ -65,7 +102,7 @@ class Purecharity_Wp_Base_Public {
    * @access   private
    * @var      string    $sponsorships    The sponsorships.
    */
-    public static $sponsorships;
+  public static $sponsorships;
 
     /**
    * The full list of sponsorships.
@@ -74,7 +111,8 @@ class Purecharity_Wp_Base_Public {
    * @access   private
    * @var      string    $sponsorships    The full list of sponsorships.
    */
-    public static $sponsorships_full;
+
+  public static $sponsorships_full;
 
 	/**
 	 * Initialize the class and set its properties.
@@ -83,6 +121,7 @@ class Purecharity_Wp_Base_Public {
 	 * @var      string    $plugin_name       The name of the plugin.
 	 * @var      string    $version    The version of this plugin.
 	 */
+
 	public function __construct( $plugin_name, $version ) {
 
 		$this->plugin_name = $plugin_name;
@@ -264,9 +303,6 @@ class Purecharity_Wp_Base_Public {
   public static function live_search(){
 
     $options = get_option( 'pure_base_settings' );
-
-    // var_dump($options);
-    // exit;
 
     if(isset($options["live_filter"]) && (empty(self::$options['hide_search']) || self::$options['hide_search'] != 'true')){
       $html = '
@@ -843,14 +879,11 @@ class Purecharity_Wp_Base_Public {
     $base_settings = get_option( 'pure_base_settings' );
 
     // Default theme color
-    if($base_settings['plugin_color'] == NULL || $base_settings['plugin_color'] == ''){
-      if($base_settings['main_color'] == NULL || $base_settings['main_color'] == ''){
-        $color = '#CA663A';
-      }else{
-        $color = $base_settings['main_color'];
-      }
+
+    if($base_settings['main_color'] == NULL || $base_settings['main_color'] == ''){
+      $color = '#CA663A';
     }else{
-      $color = $base_settings['plugin_color'];
+      $color = $base_settings['main_color'];
     }
 
     $html = '<style>';
@@ -927,6 +960,50 @@ class Purecharity_Wp_Base_Public {
 
     $html .= '</div>';
     $html .= Purecharity_Wp_Base_Public::powered_by();
+
+    return $html;
+  }
+
+  /**
+   * Custom layout from the plugin settings.
+   *
+   * @since    1.0.0
+   */
+  public static function custom_style(){
+    $main_color = get_option('puregivingcircles_main_color', false);
+    $text_color = get_option('puregivingcircles_text_color', false);
+    $html = "";
+    $html.= ' <style>';
+
+    if($main_color != '')
+    {
+      $html.= '   
+        .gc-go-back,
+        .gc-go-back:hover { 
+          background: #'.str_replace('#', '', $main_color).' !important; 
+        } 
+        a.gc-pure-button,
+        a.gc-pure-button:hover { 
+          background: #'.str_replace('#', '', $main_color).' !important; 
+        } 
+      ';
+    }
+
+    if($text_color != '')
+    {
+      $html.= '   
+        .gc-go-back,
+        .gc-go-back:hover { 
+          color: #'.str_replace('#', '', $text_color).' !important; 
+        } 
+        a.gc-pure-button,
+        a.gc-pure-button:hover { 
+          color: #'.str_replace('#', '', $text_color).' !important; 
+        } 
+      ';
+    }
+
+    $html.= ' </style>';
 
     return $html;
   }
@@ -1836,7 +1913,7 @@ class Purecharity_Wp_Base_Public {
       /**
        * Print the tickets area
        *
-       * @since    1.1.4
+       * @since    1.0.0
        */
       public static function print_tickets_area(){  
         $html = '';       

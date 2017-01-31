@@ -23,7 +23,7 @@
 class Purecharity_Wp_Givingcircles_Shortcode {
 
 
-    /**
+  /**
    * Initialize the shortcodes to make them available on page runtime.
    *
    * @since    1.0.0
@@ -97,7 +97,7 @@ class Purecharity_Wp_Givingcircles_Shortcode {
   /**
    * Initialize the Giving Circles Information shortcode.
    *
-   * @since    1.1.0
+   * @since    1.0.0
    */
   public static function giving_circle_info_shortcode($atts)
   {
@@ -107,6 +107,7 @@ class Purecharity_Wp_Givingcircles_Shortcode {
     ), $atts );
     if(isset($options['giving_circle'])){
       $givingcircle = Purecharity_Wp_Base::api_call('giving_circles/'. $options['giving_circle'])->giving_circle;
+      var_dump($givingcircle);
       switch($options['type']){
         case 'members_count':
           return count($givingcircle->members);

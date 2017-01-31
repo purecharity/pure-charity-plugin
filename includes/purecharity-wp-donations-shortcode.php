@@ -37,7 +37,7 @@ class Purecharity_Wp_Donations_Shortcode {
   /**
    * Initialize the Donation Form Shortcode
    *
-   * @since    1.0.1
+   * @since    1.0.0
    */
   public static function donation_shortcode($atts)
   { 
