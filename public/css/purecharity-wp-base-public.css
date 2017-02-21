@@ -86,6 +86,27 @@
 
 /* Funcdraisers */
 
+.family {
+    margin:10px 0;
+}
+.family a.cover {
+    float: left;
+    width: 100%;
+    height: 112px;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+}
+.family .caption h3 {
+    margin:10px 0 -5px 0;
+    float: left;
+}
+.family .caption a,
+.family .caption span {
+    float: left;
+    width: 100%;
+}
+
 .fr-list-container .clearfix {
     clear: both;
 }
@@ -1657,7 +1678,7 @@ h3.pctrip-title {
     float: left;
     width: 100%;
     font-weight: bold;
-    margin-top: 10px 0 !important; /* override theme css to keep sizing of box */
+    margin-top: 10px !important; /* override theme css to keep sizing of box */
 }
 
 .pctrip-grid-list-item p.pctrip-grid-intro {
@@ -2224,7 +2245,7 @@ ul.pcsponsor-status-buttons li.pcsponsor-taken {
 }
 
 .pc_pagination ul li a.pc_page-numbers:hover {
-    background: $ primarycolor;
+    /*background: $primarycolor;*/
     color: #fff;
 }
 
