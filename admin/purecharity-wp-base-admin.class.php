@@ -294,14 +294,6 @@ class Purecharity_Wp_Base_Admin
             array('Purecharity_Wp_Base_Admin', 'more_link_render'),
             'pbPluginPage', 'purecharity_sponsorships_3_pbPluginPage_section'
         );
-
-        add_settings_section(
-            'purecharity_trips_ptPluginPage_section',
-            __('Trips General settings', 'wordpress'),
-            array('Purecharity_Wp_Trips_Admin', 'settings_section_callback'),
-            'pbPluginPage'
-        );
-
     }
 
     /**
